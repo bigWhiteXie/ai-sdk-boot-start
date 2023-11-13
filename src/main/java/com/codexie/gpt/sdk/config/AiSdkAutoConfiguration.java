@@ -19,7 +19,6 @@ import java.util.concurrent.TimeUnit;
 
 @Configuration
 @EnableConfigurationProperties(AiSdkProperties.class)
-@ConditionalOnProperty(prefix = "ai-sdk")
 public class AiSdkAutoConfiguration {
 
 
