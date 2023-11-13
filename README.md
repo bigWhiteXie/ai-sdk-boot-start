@@ -8,6 +8,14 @@ ai-sdk:
 ```
 > 目前仅支持清华智谱和科大讯飞的星火模型
 
+### maven
+```
+<dependency>
+            <groupId>com.codexie</groupId>
+            <artifactId>ai-sdk-boot-start</artifactId>
+            <version>1.0-SNAPSHOT</version>
+</dependency>
+```
 ## 使用示例
 ```
 @SpringBootTest(classes = GptApiApplication.class)
