@@ -22,9 +22,9 @@ public class SparkModelTest {
         //1.配置configuration
         Configuration configuration = new Configuration();
 
-        configuration.setApiKey("b27443b6a9446e0067805fb88d6aaf23");
-        configuration.setApiSecret("MzM4MWQ0MjJmYzBlNWI3NDAwNmM3YmQ2");
-        configuration.setAppId("3ce7723d");
+        configuration.setApiKey("xxx");
+        configuration.setApiSecret("xxx");
+        configuration.setAppId("xxx");
 
         //2.根据配置文件创建会话工厂并得到会话
         SparkSessionFactory aiSessionFactory = new SparkSessionFactory(configuration);
