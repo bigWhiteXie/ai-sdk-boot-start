@@ -24,8 +24,8 @@ public class ChatglmTest {
     public void test_OpenAiSessionFactory() {
         //1.配置configuration
         Configuration configuration = new Configuration();
-        configuration.setApiKey("b6ddebfe0af182f2a015e81448b09d71");
-        configuration.setApiSecret("thjX2dtaj8XvAJ8d");
+        configuration.setApiKey("xxx");
+        configuration.setApiSecret("xxx");
         configuration.setExpired(500 * 1000);
         configuration.setExpired(500 * 1000);
 
